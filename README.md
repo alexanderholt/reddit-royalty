@@ -18,3 +18,8 @@ I propose an article profiling this group of superusers and their influence on r
 My preliminary research suggests that these reddit super users do exist and are very influential.Users who frequently were in the top 350 "hot" posts over the week that I scraped the website had nearly double the median number of comments (19 versus 11) and average (132 versus 62). I used random forest modeling to strengthen the claim that who a user is as determined by their post and comment "karma" raises the likelihood of having a higher number of comments. 
 
 While reddit is certainly still more democratic, open, and community-oriented than much of the other popular internet giants, there are still a group that has a lot of influence over how the majority of users view the site. It's time to uncover the reddit royalty. 
+
+
+from sklearn.externals import joblib
+jobmodel = joblib.load
+“wnv_ predict_
